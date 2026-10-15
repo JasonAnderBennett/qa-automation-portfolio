@@ -13,21 +13,22 @@ An end-to-end Cypress test suite built against [Sauce Labs' demo site](https://w
 
 
 ## Roadmap
+Next
 
-Next (near-term)
+Custom Cypress commands and page object structure
+CI integration via GitHub Actions, so tests run automatically on every push
 
-Custom Cypress commands and page object structure, extracting repeated steps like login into reusable functions
-Basic CI integration (GitHub Actions), so tests run automatically on every push instead of manually
+Then
 
-After that
+API-level testing with cy.request()
+TypeScript, since it’s increasingly the default for Cypress projects at larger teams
+Fixture-driven test data instead of hardcoded inputs
 
-API-level testing with cy.request(), testing backend responses directly instead of only through the UI
-Fixture-driven test data, pulling test inputs from files instead of hardcoding them in each test
+Further out
 
-Later
-
-Basic accessibility checks (cypress-axe), a natural next step given the aria-label locator work already in the repo
-Test reporting (Mochawesome or similar), for readable pass/fail output beyond the terminal
+Accessibility testing (cypress-axe)
+Visual regression testing (catching unintended UI changes, not just broken logic)
+Test reporting and basic metrics (Mochawesome or similar)
 
 ## Tech
 
