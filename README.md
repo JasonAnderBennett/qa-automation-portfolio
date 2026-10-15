@@ -2,10 +2,6 @@
 
 Cypress end-to-end test automation projects and testing coursework, built while transitioning from manual QA into test automation.
 
-## Background
-
-I've spent 8+ years doing manual QA and test case design across content and product platforms, without automation as part of the job. This repo is where I'm building that skill deliberately: real test suites, written and debugged myself, with a clean commit history showing the actual work.
-
 ## Projects
 
 ### `projects/saucedemo-e2e`
